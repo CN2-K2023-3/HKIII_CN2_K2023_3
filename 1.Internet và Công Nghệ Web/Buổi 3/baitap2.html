@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy Tính</title>
+    <style>
+        .calculator {
+            width: 300px;
+            background-color: #59adc9;
+            padding: 20px;
+            margin: 50px auto;
+            text-align: left;
+            font-family: Arial;
+        }
+
+        .calculator h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .calculator label {
+            display: inline-block;
+            width: 100px;
+
+        }
+
+        .calculator input[type="text"] {
+            width: 150px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .calculator input[type="button"] {
+            width: 60px;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <h2>Máy tính</h2>
+        <form>
+            <div>
+                <label for="1">Số thứ nhất</label>
+                <input type="text" id="1" name="1">
+            </div>
+            <div>
+                <label for="2">Số thứ hai</label>
+                <input type="text" id="2" name="2">
+            </div>
+            <div>
+                <input type="button" value="Cộng">
+                <input type="button" value="Trừ">
+                <input type="button" value="Nhân">
+                <input type="button" value="Chia">
+            </div>
+            <div>
+                <label for="result">Kết quả</label>
+                <input type="text" id="result" name="result">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
