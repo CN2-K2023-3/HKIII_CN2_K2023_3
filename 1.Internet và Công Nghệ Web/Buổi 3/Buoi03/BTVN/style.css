@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+h2 {
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 15px;
+  width: 100%;
+  height: 40px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 15px;
+  height: 40px;
+}
+
+body {
+  background-color: #f2f1eb;
+  padding: 10px 40px;
+}
+
+.header {
+  background-color: #f2f1eb;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-content: center;
+}
+
+.body {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.left-section {
+  float: left;
+}
+
+.right-section {
+  float: right;
+}
+
+.header .left-section {
+  align-content: center;
+}
+
+.header .left-section img {
+  width: 250px;
+  height: auto;
+}
+
+.header .right-section {
+  align-content: center;
+  justify-self: right;
+  text-align: right;
+}
+
+.header-nav-bar {
+  width: 100%;
+  height: 45px;
+  overflow: auto;
+  align-content: center;
+  float: right;
+}
+
+.header-nav-bar a {
+  color: green;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-nav-bar a:hover {
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+}
+
+.header-nav-bar a.active {
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+}
+
+.nav-bar {
+  background-color: green;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  overflow: auto;
+  margin-bottom: 10px;
+  align-content: center;
+}
+
+.nav-bar a {
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: green;
+  background-color: white;
+}
+
+.nav-bar a.active {
+  color: green;
+  background-color: white;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.green-text {
+  color: green;
+}
+
+.green-text-bigsize {
+  color: green;
+  font-size: 40px;
+}
+
+.bigsize {
+  font-size: 40px;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.underline-green-text {
+  color: green;
+  text-decoration: underline;
+}
+
+.body {
+  display: flex;
+}
+
+.left-container {
+  float: left;
+  background-color: white;
+  padding: 30px;
+}
+
+.child-1 {
+  display: flex;
+}
+
+.child-1 img {
+  border-radius: 10px 0 0 10px;
+}
+
+.child-1 div {
+  border-radius: 0 10px 10px 0;
+}
+
+.child-1-content {
+  background-color: black;
+  float: right;
+  color: white;
+  padding: 10px 0;
+}
+
+.child-1-content button {
+  background-color: gray;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.child-1-content button.active {
+  background-color: green;
+}
+
+.body-navbar {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  border: 1px solid gray;
+}
+
+.body-navbar a {
+  color: black;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+}
+
+.body-navbar a:hover {
+  color: white;
+  background-color: green;
+}
+
+.body-navbar a.active {
+  color: white;
+  background-color: green;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+.right-container {
+  float: right;
+  padding: 40px;
+  background-color: #dededb;
+}
+
+.right-container p {
+  margin-bottom: 15px;
+}
+
+.flex-display {
+  display: flex;
+  gap: 5px;
+}
+
+.footer {
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.footer-cont-2 p {
+  color: gray;
+  margin: 10px 0;
+}
+
+.footer a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-cont-1 {
+  background-color: gray;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-style: italic;
+  color: white;
+  align-content: center;
+}
+
+.footer-cont-2 {
+  background-color: #e5e5e2;
+  border-radius: 0 0 10px 10px;
+  color: black;
+  padding: 10px;
+}
+
+.footer-cont-2 h2 {
+  color: rgb(152, 23, 23);
+}
+
+.footer-cont-2 button {
+  background-color: gray;
+}
+
+.footer-follow {
+  padding: 10px;
+}
+.footer-link {
+  padding: 10px;
+}
+
+.footer-contact {
+  padding: 10px;
+}
+
+.flex-display-ver {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 33%;
+}
+
+.flex-display-hor {
+  display: flex;
+  gap: 5px;
+  flex-wrap: nowrap;
+}
+
+.copyright {
+  text-align: center;
+  color: gray;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.bold-text-black {
+  font-weight: bold;
+  color: black;
+}
