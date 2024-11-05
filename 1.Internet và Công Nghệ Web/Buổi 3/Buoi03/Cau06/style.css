@@ -1,0 +1,75 @@
+* {
+  background-color: #FFEDCA;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+label {
+  color: blue;
+  width: 150px;
+  display: inline-block;
+}
+
+#gender {
+  color: black;
+  width: 50px;
+}
+
+input[type="text"] {
+  background-color: white;
+  border-color: lightgrey;
+  border-radius: 2px;
+  width: 180px;
+}
+
+select {
+  background-color: white;
+  width: 180px;
+}
+
+option {
+  background-color: white;
+}
+
+input[type="submit"] {
+  background-color: #e4e6e8;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  background-color: white;
+  border-color: lightgrey;
+  border-radius: 2px;
+  width: 180px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+#address {
+  width: 360px;
+}
